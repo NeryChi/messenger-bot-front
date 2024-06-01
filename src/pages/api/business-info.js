@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://7cb3-2605-59c8-7292-2c10-e083-7466-6571-6a54.ngrok-free.app/api/business-info'; // URL de tu backend
+const API_URL = 'https://chatiaing.azurewebsites.net/api/business-info'; // URL de tu backend
 
 export default async function handler(req, res) {
   if (req.method === 'GET') {
